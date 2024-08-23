@@ -208,10 +208,9 @@ writeVcf(<INDIVIDUAL_ID>_Mutect2_filtered,"<OUTPUT_SNV_VCF_FILE>")
                                                   rownames(<INDIVIDUAL_ID>_Mutect2_df_mnp), ]
 writeVcf(<INDIVIDUAL_ID>_Mutect2_mnp_filtered,"<OUTPUT_MNP_VCF_FILE>")
 
+
 ##FILTERING INDELS
 
-##Command needed later in the filtering process
-'%nin%' = Negate('%in%')
 ##Load VCF
 <INDIVIDUAL_ID>_Mutect2 <- loadVcfFile("<INDEL_VCF_FILE>",
                                "BSgenome.Hsapiens.UCSC.hg38",
