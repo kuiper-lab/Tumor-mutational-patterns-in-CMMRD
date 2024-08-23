@@ -5,18 +5,18 @@ The code in this repository was used to perform analyses and create figures for 
 The order in and purpose for which the different scripts were used is described below. A supplementary file containing the mutational matrices used in the analyses is provided, as well as a file containing the conversion between the manuscript IDs and the IDs in the datasets uploaded to EGA.
 
 
-*****SOMATIC CALLING*****
+**SOMATIC CALLING**
+  
+For samples sequenced with Twist v1, run:  
+generateMutect2CallingJobs.WGS-WXS.IntersectTwist.sh  
 
-For samples sequenced with Twist v1, run:
-generateMutect2CallingJobs.WGS-WXS.IntersectTwist.sh
-
-For all other samples, run:
-generateMutect2CallingJobs.WGS-WXS.Intersect.sh
-
-Both are followed by:
-generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh
-
-
+For all other samples, run:  
+generateMutect2CallingJobs.WGS-WXS.Intersect.sh  
+  
+Both are followed by:  
+generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh  
+  
+  
 *****VCF FILTERING*****
 For all samples:
 FilterVCFs.R
