@@ -5,6 +5,7 @@ The code in this repository was used to perform analyses and create figures for 
 The order in and purpose for which the different scripts were used is described below. A supplementary file containing the mutational matrices used in the analyses is provided, as well as a file containing the conversion between the manuscript IDs and the IDs in the datasets uploaded to EGA.
   
 <br />  
+
 **SOMATIC CALLING**
   
 For samples sequenced with Twist v1, run:  
@@ -17,12 +18,14 @@ Both are followed by:
 generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh  
   
 <br />  
+
 **VCF FILTERING**
 
 For all samples:  
 FilterVCFs.R  
   
 <br />  
+
 **MUTATIONAL SIGNATURES**
 
 First, create the mutational matrices:  
@@ -36,16 +39,19 @@ Perform further downstream signature analyses using:
 SignatureAnalysesRefits.R  
   
 <br />  
+
 **PLOT MANUSCRIPT FIGURES**
 
 PlottingCMMRDFigures.R  
   
 <br />  
+
 **PERFORM STATISTICS**
 
 StatisticsCMMRD.R  
   
 <br />  
+
 **SUPPLEMENTARY FILES**
 
 Mutational Matrices: NCOMMS-23-52197_MutationalMatrices.xlsx  
