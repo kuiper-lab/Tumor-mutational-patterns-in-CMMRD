@@ -12,48 +12,48 @@ For samples sequenced with Twist v1, run:
 ```generateMutect2CallingJobs.WGS-WXS.IntersectTwist.sh```  
 
 For all other samples, run:  
-generateMutect2CallingJobs.WGS-WXS.Intersect.sh  
+```generateMutect2CallingJobs.WGS-WXS.Intersect.sh```  
   
 Both are followed by:  
-generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh  
+```generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh```  
   
 <br />  
 
 **VCF FILTERING**
 
 For all samples:  
-FilterVCFs.R  
+```FilterVCFs.R```  
   
 <br />  
 
 **MUTATIONAL SIGNATURES**
 
 First, create the mutational matrices:  
-Create_MutationalMatrices.R  
+```Create_MutationalMatrices.R```  
   
 Extract Mutational Signatures using a combination of:  
-generateDeNovoExtractionJob.sh and denovoextraction.R (SNV)  
-generateDeNovoExtractionJobIndel.sh and denovoextraction_indel.R (indel)  
+```generateDeNovoExtractionJob.sh and denovoextraction.R (SNV)```  
+```generateDeNovoExtractionJobIndel.sh and denovoextraction_indel.R (indel)```  
   
 Perform further downstream signature analyses using:  
-SignatureAnalysesRefits.R  
+```SignatureAnalysesRefits.R```  
   
 <br />  
 
 **PLOT MANUSCRIPT FIGURES**
 
-PlottingCMMRDFigures.R  
+```PlottingCMMRDFigures.R```  
   
 <br />  
 
 **PERFORM STATISTICS**
 
-StatisticsCMMRD.R  
+```StatisticsCMMRD.R```  
   
 <br />  
 
 **SUPPLEMENTARY FILES**
 
-Mutational Matrices: NCOMMS-23-52197_MutationalMatrices.xlsx  
-Conversion file manuscript ID to EGA ID: NCOMMS-23-52197_Conversion_ManuscriptID_EGA-ID.xlsx  
+Mutational Matrices: ```NCOMMS-23-52197_MutationalMatrices.xlsx```  
+Conversion file manuscript ID to EGA ID: ```NCOMMS-23-52197_Conversion_ManuscriptID_EGA-ID.xlsx```  
 
