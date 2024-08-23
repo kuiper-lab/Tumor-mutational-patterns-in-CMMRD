@@ -3,8 +3,8 @@
 The code in this repository was used to perform analyses and create figures for the manuscript "Unraveling mutagenic processes influencing the tumor mutational patterns of individuals with Constitutional Mismatch Repair Deficiency" by Weijers et al.
 
 The order in and purpose for which the different scripts were used is described below. A supplementary file containing the mutational matrices used in the analyses is provided, as well as a file containing the conversion between the manuscript IDs and the IDs in the datasets uploaded to EGA.
-
-
+  
+  
 **SOMATIC CALLING**
   
 For samples sequenced with Twist v1, run:  
@@ -17,28 +17,37 @@ Both are followed by:
 generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh  
   
   
-*****VCF FILTERING*****
-For all samples:
-FilterVCFs.R
+**VCF FILTERING**
 
-*****MUTATIONAL SIGNATURES*****
-First, create the mutational matrices:
-Create_MutationalMatrices.R
+For all samples:  
+FilterVCFs.R  
+  
+  
+**MUTATIONAL SIGNATURES**
 
-Extract Mutational Signatures using a combination of:
-generateDeNovoExtractionJob.sh and denovoextraction.R (SNV)
-generateDeNovoExtractionJobIndel.sh and denovoextraction_indel.R (indel)
+First, create the mutational matrices:  
+Create_MutationalMatrices.R  
+  
+Extract Mutational Signatures using a combination of:  
+generateDeNovoExtractionJob.sh and denovoextraction.R (SNV)  
+generateDeNovoExtractionJobIndel.sh and denovoextraction_indel.R (indel)  
+  
+Perform further downstream signature analyses using:  
+SignatureAnalysesRefits.R  
+  
+  
+**PLOT MANUSCRIPT FIGURES**
 
-Perform further downstream signature analyses using:
-SignatureAnalysesRefits.R
+PlottingCMMRDFigures.R  
+  
+  
+**PERFORM STATISTICS**
 
-*****PLOT MANUSCRIPT FIGURES*****
-PlottingCMMRDFigures.R
+StatisticsCMMRD.R  
+  
+  
+**SUPPLEMENTARY FILES**
 
-*****PERFORM STATISTICS*****
-StatisticsCMMRD.R
-
-*****SUPPLEMENTARY FILES*****
-Mutational Matrices: NCOMMS-23-52197_MutationalMatrices.xlsx
-Conversion file manuscript ID to EGA ID: NCOMMS-23-52197_Conversion_ManuscriptID_EGA-ID.xlsx
+Mutational Matrices: NCOMMS-23-52197_MutationalMatrices.xlsx  
+Conversion file manuscript ID to EGA ID: NCOMMS-23-52197_Conversion_ManuscriptID_EGA-ID.xlsx  
 
