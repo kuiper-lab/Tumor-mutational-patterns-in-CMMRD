@@ -9,7 +9,7 @@ The order in and purpose for which the different scripts were used is described 
 **SOMATIC CALLING**
   
 For samples sequenced with Twist v1, run:  
-generateMutect2CallingJobs.WGS-WXS.IntersectTwist.sh  
+```generateMutect2CallingJobs.WGS-WXS.IntersectTwist.sh```  
 
 For all other samples, run:  
 generateMutect2CallingJobs.WGS-WXS.Intersect.sh  
