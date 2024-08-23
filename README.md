@@ -1,6 +1,6 @@
 # Tumor-mutational-patterns-in-CMMRD
 
-The code in this repository was used to perform analyses and create figures for the manuscript "Unraveling mutagenic processes influencing the tumor mutational patterns of individuals with Constitutional Mismatch Repair Deficiency" by Weijers et al.
+The code in this repository was used to perform analyses and create figures for the manuscript "**Unraveling mutagenic processes influencing the tumor mutational patterns of individuals with Constitutional Mismatch Repair Deficiency**" by *Weijers et al*.
 
 The order in and purpose for which the different scripts were used is described below. A supplementary file containing the mutational matrices used in the analyses is provided, as well as a file containing the conversion between the manuscript IDs and the IDs in the datasets uploaded to EGA.
   
