@@ -40,9 +40,22 @@ Perform further downstream signature analyses using:
   
 <br />  
 
+**SigProfiler**
+
+Create the mutational matrix using SigProfiler
+```Part_I_create_mutational_matrices.R```
+```Part_II_Mutational_Matrices.txt```
+
+Signature extraction using SigProfiler
+```Mutational_Signatures.txt```
+
+<br />
+
 **PLOT MANUSCRIPT FIGURES**
 
-```PlottingCMMRDFigures.R```  
+```PlottingCMMRDFigures.R```
+```MS_contributions.R```  
+```Supplemental_Fig5C.R```
   
 <br />  
 
