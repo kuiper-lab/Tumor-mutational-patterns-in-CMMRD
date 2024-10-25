@@ -42,11 +42,11 @@ Perform further downstream signature analyses using:
 
 **SigProfiler**
 
-Create the mutational matrix using SigProfiler
+Create the mutational matrix using SigProfiler:
 ```Part_I_create_mutational_matrices.R```
 ```Part_II_Mutational_Matrices.txt```
 
-Signature extraction using SigProfiler
+Signature extraction using SigProfiler:
 ```Mutational_Signatures.txt```
 
 <br />
