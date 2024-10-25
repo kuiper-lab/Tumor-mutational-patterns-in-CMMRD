@@ -1,0 +1,11 @@
+#Mutational Signatures Extraction and plotting --> python; run in bash
+python3
+import os
+from SigProfilerExtractor import sigpro as sig
+#have to specify which .all file is to be used
+sig.sigProfilerExtractor("matrix", "results", "path/to/SNV.txt", reference_genome="GRCh37",
+                         minimum_signatures=1, maximum_signatures=10, nmf_replicates=100, cpu=-1)
+
+
+sig.sigProfilerExtractor("matrix", "results", "path/to/Indel.txt", reference_genome="GRCh37",
+                         minimum_signatures=1, maximum_signatures=10, nmf_replicates=100, cpu=-1)
