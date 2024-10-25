@@ -1,0 +1,16 @@
+#Matrices Generation and plotting --> python; run in bash
+
+python3
+import os
+from SigProfilerMatrixGenerator import install as genInstall
+#genInstall.install('GRCh37', bash=True)
+
+from SigProfilerMatrixGenerator.scripts import SigProfilerMatrixGeneratorFunc as matGen
+
+#test should be the project name, as it will be appended to the output name; place the input data in the .txt or .vcf format 
+#in the /input dir and supply the input files path up to /input
+
+matrices = matGen.SigProfilerMatrixGeneratorFunc("CMMRD", "GRCh37", "/home/snezana/MMG/input/SNVs", plot=True)
+
+matrices = matGen.SigProfilerMatrixGeneratorFunc("CMMRD", "GRCh37", "/home/snezana/MMG/input/Indels", plot=True)
+
