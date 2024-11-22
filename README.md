@@ -67,8 +67,10 @@ First, create the mutational matrices:
 The expected output is a mutational matrix containing the numbers of mutations per tumor per mutation type.
   
 Extract Mutational Signatures using a combination of:  
-```generateDeNovoExtractionJob.sh and denovoextraction.R (SNV)```  
-```generateDeNovoExtractionJobIndel.sh and denovoextraction_indel.R (indel)```  
+```generateDeNovoExtractionJob.sh and denovoextraction.R (SNV)
+generateDeNovoExtractionJobIndel.sh and denovoextraction_indel.R (indel)
+```
+
 The code for "Extract Mutational Signatures" has been run on a high-performance cluster.
 The expected output is an Rdata file containing the extracted signatures.
   
@@ -81,8 +83,10 @@ Expected output is a variety of R objects containing specific analyses.
 **SigProfiler**
 
 Create the mutational matrix using SigProfiler:
-```Part_I_create_mutational_matrices.R```
-```Part_II_Mutational_Matrices.txt```
+```Part_I_create_mutational_matrices.R
+Part_II_Mutational_Matrices.txt
+```
+
 The expected output is a mutational matrix containing the numbers of mutations per tumor per mutation type.
 
 Signature extraction using SigProfiler:
