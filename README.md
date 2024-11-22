@@ -13,11 +13,11 @@ Genome Analysis Toolkit v4.2.0.0
 Java v1.8.0_60
 Ensembl VEP v92 https://github.com/Ensembl/ensembl-vep/tree/release/92
 samtools v1.9
+python 3
 R v4.2.1
-R v4.1.2 (for the scripts under "Extract Mutational Signatures" specifically)
-MutationalPatterns v3.10.0  https://bioconductor.org/packages/release/bioc/html/MutationalPatterns.html
+&nbsp;&nbsp;R v4.1.2 (for the scripts under "Extract Mutational Signatures" specifically)
+&nbsp;&nbsp;MutationalPatterns v3.10.0  https://bioconductor.org/packages/release/bioc/html/MutationalPatterns.html
 BSgenome.Hsapiens.UCSC.hg38 v1.4.5
-python3
 SigProfilerMatrixGenerator v1.1.28 https://github.com/AlexandrovLab/SigProfilerMatrixGenerator
 SigProfilerExtractor v1.1.0 https://github.com/AlexandrovLab/SigProfilerExtractor
 ggplot2 v3.4.2 https://ggplot2.tidyverse.org/
