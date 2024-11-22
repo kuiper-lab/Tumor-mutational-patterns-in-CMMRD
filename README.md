@@ -86,7 +86,8 @@ The expected output is an Rdata file containing the extracted signatures.
   
 Perform further downstream signature analyses using:  
 ```
-SignatureAnalysesRefits.R```
+SignatureAnalysesRefits.R
+```
 Expected output is a variety of R objects containing specific analyses.
   
 <br />  
