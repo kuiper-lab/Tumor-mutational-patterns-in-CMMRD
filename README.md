@@ -112,7 +112,9 @@ The expected output is a variety of figures and graphs.
 
 **PERFORM STATISTICS**
 
-```StatisticsCMMRD.R```
+```
+StatisticsCMMRD.R
+```
 The expected output are values associated with these statistical tests, among which are p-values.
   
 <br />  
