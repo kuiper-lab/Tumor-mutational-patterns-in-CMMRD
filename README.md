@@ -8,24 +8,24 @@ No separate demo data was provided, because (part of) the original data can be u
 
 The following software, tools and libraries are used in the code provided:
 ```
-Burrows-Wheeler Aligner v0.7.13
-Genome Analysis Toolkit v4.2.0.0 
-Java v1.8.0_60
-Ensembl VEP v92 https://github.com/Ensembl/ensembl-vep/tree/release/92
-samtools v1.9
-python 3
-R v4.2.1
+- Burrows-Wheeler Aligner v0.7.13
+- Genome Analysis Toolkit v4.2.0.0 
+- Java v1.8.0_60
+- Ensembl VEP v92 https://github.com/Ensembl/ensembl-vep/tree/release/92
+- samtools v1.9
+- python 3
+- R v4.2.1
     R v4.1.2 (for the scripts under "Extract Mutational Signatures" specifically)
-MutationalPatterns v3.10.0  https://bioconductor.org/packages/release/bioc/html/MutationalPatterns.html
-BSgenome.Hsapiens.UCSC.hg38 v1.4.5
-SigProfilerMatrixGenerator v1.1.28 https://github.com/AlexandrovLab/SigProfilerMatrixGenerator
-SigProfilerExtractor v1.1.0 https://github.com/AlexandrovLab/SigProfilerExtractor
-ggplot2 v3.4.2 https://ggplot2.tidyverse.org/
-stats v4.2.1 https://rdrr.io/r/stats/stats-package.html
-FSA v0.9.5 https://fishr-core-team.github.io/FSA/
-contingencytables v3.0.1 https://github.com/ocbe-uio/contingencytables
-VariantAnnotation v1.50.0
-GenomeInfoDb 1.40.1
+    - MutationalPatterns v3.10.0  https://bioconductor.org/packages/release/bioc/html/MutationalPatterns.html
+    - BSgenome.Hsapiens.UCSC.hg38 v1.4.5
+    - SigProfilerMatrixGenerator v1.1.28 https://github.com/AlexandrovLab/SigProfilerMatrixGenerator
+    - SigProfilerExtractor v1.1.0 https://github.com/AlexandrovLab/SigProfilerExtractor
+    - ggplot2 v3.4.2 https://ggplot2.tidyverse.org/
+    - stats v4.2.1 https://rdrr.io/r/stats/stats-package.html
+    - FSA v0.9.5 https://fishr-core-team.github.io/FSA/
+    - contingencytables v3.0.1 https://github.com/ocbe-uio/contingencytables
+    - VariantAnnotation v1.50.0
+    - GenomeInfoDb 1.40.1
 ```
 
 The code has not been tested on other versions of these software and tools.
