@@ -24,7 +24,7 @@ stats v4.2.1 https://rdrr.io/r/stats/stats-package.html
 FSA v0.9.5 https://fishr-core-team.github.io/FSA/
 contingencytables v3.0.1 https://github.com/ocbe-uio/contingencytables
 VariantAnnotation v1.50.0
-GenomeInfoDb 1.40.1```
+GenomeInfoDb 1.40.1 ```
 
 
 The code has not been tested on other versions of these software and tools.
