@@ -39,14 +39,19 @@ Part of the code has been run on a high-performance cluster, these sections are 
 **SOMATIC CALLING**
   
 For samples sequenced with Twist v1, run:  
-```generateMutect2CallingJobs.WGS-WXS.IntersectTwist.sh```  
+```
+generateMutect2CallingJobs.WGS-WXS.IntersectTwist.sh
+```
 
 For all other samples, run:  
-```generateMutect2CallingJobs.WGS-WXS.Intersect.sh```  
+```
+generateMutect2CallingJobs.WGS-WXS.Intersect.sh
+```
   
 Both are followed by:  
-```generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh```  
-
+```
+generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh
+```
 The code above has been run on a high-performance cluster.
 The expected output is a VCF file containing all somatic mutations with Ensembl VEP annotations.
   
@@ -55,8 +60,9 @@ The expected output is a VCF file containing all somatic mutations with Ensembl 
 **VCF FILTERING**
 
 For all samples:  
-```FilterVCFs.R```  
-
+```
+FilterVCFs.R
+```
 The expected output is a filtered VCF file.
   
 <br />  
@@ -64,7 +70,9 @@ The expected output is a filtered VCF file.
 **MUTATIONAL SIGNATURES**
 
 First, create the mutational matrices:  
-```Create_MutationalMatrices.R```  
+```
+Create_MutationalMatrices.R
+```
 The expected output is a mutational matrix containing the numbers of mutations per tumor per mutation type.
   
 Extract Mutational Signatures using a combination of:
@@ -77,7 +85,8 @@ The code for "Extract Mutational Signatures" has been run on a high-performance 
 The expected output is an Rdata file containing the extracted signatures.
   
 Perform further downstream signature analyses using:  
-```SignatureAnalysesRefits.R```  
+```
+SignatureAnalysesRefits.R```
 Expected output is a variety of R objects containing specific analyses.
   
 <br />  
