@@ -98,9 +98,11 @@ The expected output is an object containing the extracted signatures.
 
 **PLOT MANUSCRIPT FIGURES**
 
-```PlottingCMMRDFigures.R
+```
+PlottingCMMRDFigures.R
 MS_contributions.R
-Supplemental_Fig5C.R```
+Supplemental_Fig5C.R
+```
 The expected output is a variety of figures and graphs.
   
 <br />  
