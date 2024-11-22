@@ -7,7 +7,7 @@ The order in and purpose for which the different scripts were used is described 
 No separate demo data was provided, because (part of) the original data can be used to demo the code.
 
 The following software and tools are used in the code provided:
-Burrows-Wheeler Aligner v0.7.13
+```Burrows-Wheeler Aligner v0.7.13
 Genome Analysis Toolkit v4.2.0.0 
 Java/1.8.0_60
 Ensembl VEP v92 https://github.com/Ensembl/ensembl-vep/tree/release/92
@@ -24,7 +24,7 @@ stats v4.2.1 https://rdrr.io/r/stats/stats-package.html
 FSA v0.9.5 https://fishr-core-team.github.io/FSA/
 contingencytables v3.0.1 https://github.com/ocbe-uio/contingencytables
 VariantAnnotation v1.50.0
-GenomeInfoDb 1.40.1
+GenomeInfoDb 1.40.1```
 
 The code has not been tested on other versions of these software and tools.
 Only previously developed software and tools were used.
