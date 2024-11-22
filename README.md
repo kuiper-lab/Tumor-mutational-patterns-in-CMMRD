@@ -26,6 +26,7 @@ contingencytables v3.0.1 https://github.com/ocbe-uio/contingencytables
 VariantAnnotation v1.50.0
 GenomeInfoDb 1.40.1```
 
+
 The code has not been tested on other versions of these software and tools.
 Only previously developed software and tools were used.
 Instructions for installing these software and tools and, where relevant, the typical install time can be consulted on the developers webpage or repository.
