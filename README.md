@@ -68,6 +68,7 @@ FilterVCFs.R
 The expected output is a filtered VCF file.
   
 <br />  
+<br />
 
 **MUTATIONAL SIGNATURES**
 
@@ -92,6 +93,7 @@ SignatureAnalysesRefits.R
 ```
 Expected output is a variety of R objects containing specific analyses.
   
+<br />
 <br />  
 
 **SigProfiler**
@@ -111,6 +113,7 @@ Mutational_Signatures.txt
 The expected output is an object containing the extracted signatures.
 
 <br />
+<br />
 
 **PLOT MANUSCRIPT FIGURES**
 
@@ -121,6 +124,7 @@ Supplemental_Fig5C.R
 ```
 The expected output is a variety of figures and graphs.
   
+<br />
 <br />  
 
 **PERFORM STATISTICS**
@@ -130,6 +134,7 @@ StatisticsCMMRD.R
 ```
 The expected output are values associated with these statistical tests, among which are p-values.
   
+<br />
 <br />  
 
 **SUPPLEMENTARY FILES**
