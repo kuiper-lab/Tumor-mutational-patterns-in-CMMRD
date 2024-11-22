@@ -35,6 +35,7 @@ Instructions for installing these software and tools and, where relevant, the ty
 Part of the code has been run on a high-performance cluster, these sections are indicated below.
   
 <br />  
+<br />
 
 **SOMATIC CALLING**
   
@@ -55,6 +56,7 @@ generateMutect2FilterJobs.WXS.noPASS.Intersect.noMNP.sh
 The code above has been run on a high-performance cluster.
 The expected output is a VCF file containing all somatic mutations with Ensembl VEP annotations.
   
+<br />
 <br />  
 
 **VCF FILTERING**
