@@ -7,8 +7,7 @@ The order in and purpose for which the different scripts were used is described 
 No separate demo data was provided, because (part of) the original data can be used to demo the code.
 
 The following software, tools and libraries are used in the code provided:
-- Burrows-Wheeler Aligner v0.7.13
-[label](http://example.com)
+- [Burrows-Wheeler Aligner](https://github.com/lh3/bwa) v0.7.13
 - Genome Analysis Toolkit v4.2.0.0 
 - Java v1.8.0_60
 - Ensembl VEP v92 https://github.com/Ensembl/ensembl-vep/tree/release/92
