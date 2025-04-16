@@ -13,8 +13,7 @@ The following software, tools and libraries are used in the code provided:
 - [samtools](https://github.com/samtools/) v1.9
 - [python](https://www.python.org/) 3
 - [Java](https://www.java.com/) v1.8.0_60
-- [R](https://www.r-project.org/) v4.2.1
-    R v4.1.2 (for the scripts under "Extract Mutational Signatures" specifically)
+- [R](https://www.r-project.org/) v4.2.1 (for the scripts under "Extract Mutational Signatures" specifically)
     - [MutationalPatterns](https://bioconductor.org/packages/release/bioc/html/MutationalPatterns.html) v3.10.0
     - [BSgenome.Hsapiens.UCSC.hg38](https://bioconductor.org/packages/release/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html) v1.4.5
     - [SigProfilerMatrixGenerator](https://github.com/AlexandrovLab/SigProfilerMatrixGenerator) v1.1.28
