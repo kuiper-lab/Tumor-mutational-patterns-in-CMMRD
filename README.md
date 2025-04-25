@@ -137,6 +137,13 @@ The expected output are values associated with these statistical tests, among wh
 **SUPPLEMENTARY FILES**
 
 Mutational Matrices: ```NCOMMS-23-52197_MutationalMatrices.xlsx```  
+This file contains 6 tabs containing the SBS and INDEL matrix for the following cohorts:
+- Maxima/CMMRD cohort
+- Control cohort 1
+- Control cohort 2
+
+<br />
+
 VCF files: 
 Conversion file manuscript ID to EGA ID: ```NCOMMS-23-52197_Conversion_ManuscriptID_EGA-ID.xlsx```  
 
